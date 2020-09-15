@@ -4,5 +4,12 @@
     }
     
 .anim{
-    animation: fadeIn 5s;
+    animation: fadeIn 3s;
+}
+
+.button-class{
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    margin-right: 10px;
 }

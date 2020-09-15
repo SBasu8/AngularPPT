@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ppt-t1"
+    }
+  },
+  "defaultProject": "ppt-t1",
+  "cli": {
+    "analytics": "fc51bee6-e89b-498c-8d34-efc6dd7c1b9e"
+  }
 }

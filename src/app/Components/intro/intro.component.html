@@ -1,13 +1,14 @@
 <div class="d-flex align-items-center flex-column" style="font-size: 20px">
-    <h2 style="color: red; font-weight: bold;"> WELCOME TO WELLSFARGO</h2>
+    <h2 style="color: rgb(218, 55, 55); font-weight: bold;"> Welcome to our WELLS FARGO Learning Journey</h2>
+    <h5 style="color: rgb(43, 23, 100); font-weight: bold;"> By Suvronil Basu, Prabin Kumar Rath and Avi Rai </h5>
     <br>
     <div class="card shadow p-3 mb-5 fade-in" style="width:500px ">
         <p> Today is your 1st day as a salaried person !! You are excited to go and work at the company</p>
-        <button (click)="goToCampus()" class="btn btn-primary" >Go to Campus</button>
+        <button (click)="goToCampus()" class="btn btn-primary" >Go to Office :)</button>
     </div>
     <h4 id="msg">{{msg}}</h4>
     <div id="c2" class="card shadow p-3 mb-5 fade-in" style="width:500px; font-weight: bold" *ngIf="if_clicked_thrice" >
-        <p>Unfortunately Covid19 crashed in!! You have no choice but to go back home</p>      
-        <button (click)="goBackHome()" class="btn btn-info">Go Back Home </button>
+        <p>Unfortunately COVID-19 crashed in!! You have no choice but to go back home</p>      
+        <button (click)="goBackHome()" class="btn btn-info">Go Back Home :(</button>
     </div>
 </div>
