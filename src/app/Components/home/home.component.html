@@ -1,0 +1,16 @@
+<div class="d-flex align-items-center flex-column"  style="font-size: 20px"> 
+    <h2> AT HOME </h2>
+    <br>
+    <div class="card shadow p-3 mb-5 fade-in" style="width:500px ">
+        <p> You go home sulking, cursing the vulnerable times we are in.</p>
+        <button (click)="startComp()" class="btn btn-primary" >Click to start the new normal</button>
+    </div>
+    <div class="card shadow p-3 mb-5 fade-in" style="width:500px; font-weight: bold" *ngIf="if_clicked_newnormal" >
+        <p>You click to check your mails - you see a schedule Wells Fargo made for you to learn</p>      
+        <button (click)="startLearn()" class="btn btn-info">Learning never Stops !!</button>
+    </div>
+    <div *ngIf="if_clicked_learn" class="anim">
+        <button (click)="goToLearnings()" class="btn btn-danger" style="position: absolute; left: 48%;top: 75%">Start</button>
+        <img src="..\..\..\assets\pics\laptop.png">
+    </div>
+</div>

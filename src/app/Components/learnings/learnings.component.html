@@ -1,0 +1,39 @@
+<div class="d-flex flex-row justify-content-center justify-content-around" >
+    <button (click)="back()" *ngIf="is_back_state" class="btn btn-info ">Back</button>
+    <button (click)="next()" *ngIf="is_next_state" class="btn btn-info ">Next</button>
+</div>
+<div class="d-flex justify-content-center">
+<div *ngIf="slide_state[0]" >
+    <img src="..\..\..\assets\pics\PPT_1.jpg">
+</div>
+<div *ngIf="slide_state[1]">
+    <img src="..\..\..\assets\pics\PPT_2.jpg">
+</div>
+<div *ngIf="slide_state[2]">
+    <img src="..\..\..\assets\pics\PPT_3.jpg">  
+</div>
+<div *ngIf="slide_state[3]">
+    <img src="..\..\..\assets\pics\PPT_4.jpg">
+</div>
+<div *ngIf="slide_state[4]">
+    <img src="..\..\..\assets\pics\PPT_5.jpg">
+</div>
+<div *ngIf="slide_state[5]">
+    <img src="..\..\..\assets\pics\PPT_6.jpg">
+</div>
+<div *ngIf="slide_state[6]">
+    <img src="..\..\..\assets\pics\PPT_7.jpg">
+</div>
+<div *ngIf="slide_state[7]">
+    <img src="..\..\..\assets\pics\PPT_8.jpg">
+</div>
+<div *ngIf="slide_state[8]">
+    <img src="..\..\..\assets\pics\PPT_9.jpg">
+</div>
+<div *ngIf="slide_state[9]">
+    <img src="..\..\..\assets\pics\PPT_10.jpg">
+</div>
+<div *ngIf="slide_state[10]">
+    <img src="..\..\..\assets\pics\PPT_11.jpg">
+</div>
+</div>
